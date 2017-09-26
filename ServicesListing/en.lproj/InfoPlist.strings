@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  ServicesListing
+
+  Created by Deepak Chauhan on 27/03/17.
+  Copyright © 2017 Tejas Pareek. All rights reserved.
+*/
+"CFBundleDisplayName" = "My Services";
+"CFBundleName" = "My Services";
+"NSLocationAlwaysUsageDescription" = "This application requires location services to work";
+"NSLocationWhenInUseUsageDescription" = "This application requires location services to work";

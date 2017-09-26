@@ -1,0 +1,443 @@
+/*
+ Localizable.strings
+ CrafTechApplication
+ 
+ Created by Ratneshwar Singh on 11/30/16.
+ Copyright © 2016 Mobiloitte Inc. All rights reserved.
+ */
+
+"CFBundleDisplayName" = "خدماتي";
+
+//Login Screen
+"Email" = "البريد الإلكتروني";
+"Password" = "كلمه السر";
+"OR" = "أو";
+"Mobile Number" = "رقم الهاتف المحمول";
+"Remember me" = "تذكرني";
+"Forgot password?" = "هل نسيت كلمة المرور";
+"LOGIN" = "تسجيل دخول";
+"New user" = "مستخدم جديد";
+"Sign up" = "سجّل الأن";
+"New user?" = "مستخدم جديد؟";
+"I agree to the" = "أنا أوافق على";
+"Terms & Services" = "الشروط والخدمات";
+
+"TERMS & SERVICES" = "الشروط والخدمات";
+"Change Location" = "تغيير الموقع";
+
+"of the application" = "من التطبيق";
+
+"CHOOSE COUNTRY" = "اختر بلد";
+
+//Forgot Screen
+"FORGOT PASSWORD" = "نسيت كلمة المرور";
+"Content" = "تعليمات اعادة التعيين عن طريق البريد ـو الهاتف";
+"Email/Mobile Number" = "البريد الإلكتروني / رقم الجوال";
+"SUBMIT" = "ارسل";
+
+//OTP Screen
+"OTP" = "OTP";
+"OTPContent" = "تم ارسال رمز التفعيل رسالة";
+"Please enter the activation code" = "يرجى ادخال رمز التفعيل";
+"Resend OTP" = "اعادة ارسال الرمز";
+
+"Please enable location services in settings to continue using the app!" = "يرجى تفعيل خاصية تحديد الموقع";
+
+
+"Select Location"             = "أختر موقعك";
+
+// Complete Your Profile
+"COMPLETE YOUR PROFILE" = "أكمل ملف التعريف";
+"Current location" = "الموقع الحالي";
+
+"Auto detection location" = "موقع الكشف التلقائي";
+
+
+"Current Location" = "الموقع الحالي";
+
+
+"Are you sure you want to delete all notifications?" = "هل تريد ازالة الاشعارات";
+"Distance (Km)" = "المسافة (كم)";
+
+
+// SignUp Screen
+"SIGN UP" = "تسجيل";
+"First name" = "الاسم الاول";
+"Last Name" = "الكنية";
+"Password" = "كلمة المرور";
+"Confirm Password" = "تأكيد كلمة المرور";
+"DOB" = "تاريخ الميلاد";
+"Address" = "عنوان";
+
+"Auto-detection" = "الكشف التلقائي";
+
+"COUNTRY" = "بلد";
+
+"Country" = "بلد";
+
+"Select Country" = "حدد الدولة";
+
+// Profile Screen
+"Email Address" = "البريد الإلكتروني";
+"Location" = "الموقع";
+"My profile" = "ملف التعريف";
+"Edit profile" = "تعديل الملف";
+
+
+
+// Side Panel
+"Home" = "الرئيسية";
+
+"HOME" = "الرئيسية";
+
+"Notification" = "تنبيهات";
+"NOTIFICATION" = "تنبيهات";
+
+"My ads" = "إعلاناتي";
+"Post a new ad" = "ادراج اعلان";
+
+"POST A NEW ADD" = "ادراج اعلان";
+
+"My service" = "خدماتي";
+"Terms & service" = "الشروط ةالأحكام";
+"Contact us" = "اتصل بنا";
+"CONTACT US" = "اتصل بنا";
+
+"Terms and Services" = "الشروط ةالأحكام";
+
+"Privacy policy" = "سياسة الخصوصية";
+"PRIVACY POLICY" = "سياسة الخصوصية";
+"Successfully reported" = "ذكرت ناجحة";
+
+
+"Favorite" = "المفضلة";
+"Logout" = "خروج";
+"SEND"   = "إرسال";
+
+
+"Dummy Text" = "أبجد هوز DOLAR الجلوس امات، consect etur أبجد دولور الجلوس امات.";
+
+"Thanks! Our team has jumped into action and we'll get in touch with you shortly" = "قريبا .. شكرا . تم البدء بالمعالجة سيتم التواصل معكم";
+
+
+"User name" = "اسم المستخدم";
+
+"Are you sure you want to Logout ?" = "هل أنت متأكد أنك تريد تسجيل الخروج ؟";
+"Yes" = "نعم";
+"Cancel" = "إلغاء";
+
+// Language Alert Screen
+"Choose your language" = "اختر لغتك";
+"English" = "ENGLISH";
+"Arabic" = "العربية";
+
+"Profile update successfully" = "تحديث الملف الشخصي بنجاح";
+"Success"  = "نجاح";
+"Success!" = "نجاح!";
+"Error!"   = "خطأ!";
+
+
+// Alert Strings
+"Validate email"    = "يرجى ادخال بريد الكتروني صالح";
+"Enter password"    = "يرجى ادخال كلمة السر";
+"Password length"   = "كلمة السر بين 8 الى 16 حرف";
+"Enter email"                = "يرجى ادخال البريد الالكتروني";
+"Validate email and mobile"  = "يرجى ادخال بريد الكتروني صالح / رقم الهاتف";
+"Enter email and mobile"     = "يرجى ادخال البريد الالكتروني / رقم الهاتف";
+
+
+"Enter first name"           = "أدخل الاسم الأول";
+"Enter last name"            = "أدخل الاسم الأخير";
+
+
+"Enter mobile"               = "أدخل رقم الجوال";
+"Validate mobile"            = "أدخل رقم جوال صالح";
+"Agree to terms"             = "يرجى الموافقة على الشروط والأحكام";
+"Enter Old password"         = "أدخل كلمة المرور السابقة";
+
+"Enter new password"         = "أدخل كلمة المرور الجديدة";
+"Validate new password"      = "كلمة السر يجب أن لاتق عن 8 أحرف";
+"Enter confirm password"     = "تأكيد كلمة السر";
+"Validate confirm password"  = "يجب أن يكون تأكيد كلمة السر بين 8 إلى 16 حرفا";
+"Match new and confirm password"  = "كلمة السر الجديدة وتأكيد كلمة السر غير متطابقان";
+
+"Match password and confirm password" = "كلمة السر وتأكيد كلمة السر غير متطابقان";
+
+"Enter otp"                 = "أدخل كلمة السر لمرة واحدة (OTP)";
+"Validate otp"              = "أدخل (OTP) صالحة";
+"Select dob"                = "أدخل تاريخ الميلاد";
+"Enter address"             = "يرجى تمكين موقعك من جهاز";
+"Enter location"            = "يرجى تمكين GPS";
+
+"Please enter address"    =  "الرجاء إدخال عنوان";
+"Today" = "اليوم";
+
+
+
+"Otp Send"            =  "تم ارسال رمز التفعيل رسالة";
+"Please agree to term and conditions" = "يرجى قبول الشروط والأحكام";
+"Password has been send to your mobile number" = "تم الارسال لرقم هاتفك";
+"Password has been send to your email id" = "بريدك الالكتروني";
+"Call facility is not available!!!" = "رقم الاتصال غير متوفر";
+"email facility is not available!!!" = "البريد غير متوفر";
+
+"Please select any sorting category" = "من فضلك اختار فئة الفرز";
+
+
+"Check camera"              = "الأداة لاتحتوي على كاميرا";
+
+"Please enter requirement"      = "الرجاء إدخال المتطلبات اسم";
+"Please select category"        = "الرجاء تحديد الفئة";
+"Please select service type"    = "يرجى تحديد نوع الخدمة";
+"Please select transpotation"   = "يرجى اختيار النقل";
+"Please enter description"      = "الرجاء إدخال وصف
+";
+"Please enter price"            = "الرجاء إدخال سعر";
+
+"Please select subject"         = "يرجى تحديد موضوع";
+"Please enter problem"          = "الرجاء إدخال مشكلة";
+
+"Please enter from price"              = "الرجاء إدخال سعر الحد الأدنى";
+"Please enter to price"              = "الرجاء إدخال أقصى السعر";
+"Please select distance"              = "يرجى تحديد المسافة";
+
+"Please enter service name"              = "الرجاء إدخال اسم الخدمة";
+"Please select transportation availability"              = "الرجاء تحديد توافر النقل";
+
+"Please select service type"              = "يرجى تحديد نوع الخدمة";
+"First name validations" = "الرجاء إدخال الاسم الأول صحيح";
+"Last name validations" = "الرجاء إدخال صحيح اسم العائلة";
+
+
+"Please enter your country code" = "الرجاء إدخال رمز الدولة";
+
+// Post a New Add Screen
+"Requirement Name" = "اسم شرط";
+"Select Category" = "اختر الفئة";
+"Select Service Type" = "اختر نوع الخدمة";
+"Select Transportation" = "حدد النقل";
+"Description" = "وصف";
+"Price in $" = "($)السعر";
+"Apply" = "التقدم بطلب";
+
+"CancelSmall" = "إلغاء";
+"TakeAPhoto" = "التقاط صورة";
+"Choose from Gallery" = "اختيار من بينها معرض";
+
+// Services Screen
+"MY SERVICES" = "خدماتي";
+"SERVICES" = "خدمات";
+"Services offered" = "الخدمات المقدمة";
+"Services Required" = "الخدمات المطلوبة";
+"Sales" = "مبيعات";
+"Required" = "مطلوب";
+"FILTER" = " فلتر";
+"SORT" = "فرز";
+"Inquiry 1" = "التحقيق 1";
+"Inquiry 2" = "رسالتك 2";
+"Inquiry 3" = "رسالتك 3";
+"Inquiry 4" = "التحقيق 4";
+"Inquiry 5" = "رسالتك 5";
+"Inquiry 6" = "رسالتك 6";
+"Inquiry 7" = "رسالتك 7";
+"Inquiry 8" = "رسالتك 8";
+"Inquiry 9" = "رسالتك 9";
+"12" = "12";
+"11" = "11";
+"13" = "13";
+"14" = "14";
+"15" = "15";
+"11 Km" = "11 كم";
+"Lorem Ipsum fghfh fghfghfg ghfhfgh" = "أبجد هوز أبجد هوز أبجد هوز أبجد هوز";
+
+"I agree to the Terms & Services of the application" = "أوافق على بنود وخدمات التطبيق";
+
+// MY ADS Screen
+
+"MY ADS" = "إعلاناتي";
+"Ads 1" = "الإعلانات 1";
+"Ads 2" = "الإعلانات 2";
+"Ads 3" = "الإعلانات 3";
+"Ads 4" = "الإعلانات 4";
+"Ads 5" = "الإعلانات 5";
+"Ads 6" = "إعلانات 6";
+"Ads 7" = "الإعلانات 7";
+"Ads 8" = "إعلانات 8";
+"Ads 9" = "إعلانات 9";
+
+
+//Favorites Screen
+
+"FAVORITES" = "المفضلة";
+
+//Service Detail Screen
+"SERVICE DETAILS" = "خدمة تفاصيل";
+"Service 1" = "الخدمة 1";
+"Teaching" = "تعليم";
+"Painting" = "لوحة";
+"Cooking" = "طهي الطعام";
+"Construction" = "إنشاءات";
+"Tailor" = "خياط";
+"Mechanic" = "ميكانيكي";
+
+
+"computer" = "كمبيوتر";
+"Other" = "الأخرى";
+"shipping" = "الشحن";
+
+
+
+"TEACHING" = "تعليم";
+"PAINTING" = "لوحة";
+"COOKING" = "طهي الطعام";
+"CONSTRUCTION" = "إنشاءات";
+"TAILOR" = "خياط";
+"MECHANIC" = "ميكانيكي";
+
+
+
+"1200" = "1200";
+"YES" = "نعم فعلا";
+"NO" = "لا";
+"No" = "لا";
+"Required" = "مطلوب";
+"Offered" = "عرضت";
+"Sales" = "مبيعات";
+"Inquiry" = "تحقيق";
+"Work In Progress!" =  "العمل في التقدم!";
+"Service Name" = "اسم الخدمة";
+"Category" = "فئة";
+
+"CATEGORIES" = "الفئات";
+
+"Price" = "السعر";
+"Transportation\nAvailability" = "النقل التوفر";
+"Service Type" = "نوع الخدمة";
+"Share your comment..." = "شاركنا تعليقك ...";
+"fdgfhfghfghfghfghjdfghufghufghufguhfguh fguhfguhgufhufgh fguh ufgfugh fguufghufd hudf uh dfugh dfuihg dfiuhgdfhiug dfiuhgdfhug dfuhgdufihg dfiuhgudifhg dfuhg dfuhgudfhgdfuhg udfgh dfhjdsujfdshfudshfuhdsufhdsuhfudishfiudhsfiuhdsuifhdsuhf"  =  "أبجد ه أبجد ه أبجد هو أبجد ه";
+
+"Alert" = "إنذار";
+
+"Alert!" = "إنذار";
+
+"Repost Successfully." = "بعد ثانية بنجاح";
+"Are you sure! You want to delete this post." = "مسح الاعلان";
+
+"Are you sure! You want to repost this advertisement." = "هل تريد اعادة نشر الاعلان";
+
+
+"Comments" = "تعليقات";
+"Call" = "مكالمة";
+"SMS" = "رسالةقصيرة";
+"Email" = "البريد الإلكتروني";
+"Add to favorite" = "أضف إلى المفضلة";
+
+"Remove from Favorites" = "إزالة من المفضلة";
+
+"Report" = "تقرير";
+"Share" = "شارك";
+"Posted by" = "منشور من طرف";
+"Description:" = "وصف:";
+"Likes" = "الإعجابات";
+"Views" = "المشاهدات";
+"Dis" = "ديس";
+"Km" = "كم";
+"m" = "م";
+"Search" = "بحث";
+
+"Add advertisement" = "إضافة إعلانك";
+"Submit" = "ارسل";
+"OK" = "حسنا";
+"Post added successfully" = "آخر أضاف بريد";
+
+"Your age should be atleast 14 years" = "يجب أن يكون عمرك أتلست 14 عاما.";
+
+"Call facility is not available." = "مرفق الدعوة ليست متاحة.";
+"email facility is not available." = "مرفق البريد الإلكتروني غير متوفر.";
+
+"Valid service name" = "الرجاء إدخال حرفين على الأقل في اسم الخدمة";
+"Valid description name" = "الرجاء إدخال حرفين على الأقل في الوصف";
+
+"Valid service name type" = "الرجاء إدخال اسم خدمة صالح";
+
+"Delete" = "حذف";
+
+// Report Screen
+"Report your problem" = "مشكلة اكتب";
+"Subject" = "الموضوع";
+"ReportCap" = "تقرير";
+
+
+// Sort Screen
+"SORT" = "فرز";
+
+"Latest ads" = "أحدث الإعلانات";
+"Most commented today" = "وعلقت معظم اليوم";
+"Most commented last week" = "علق معظم الأسبوع الماضي";
+"Last month" = "الشهر الماضي";
+"Last week" = "الاسبوع الماضى";
+"Most liked" = "الأكثر إعجابا";
+
+// Filter Screen
+"From" = "من عند";
+"To" = "ل";
+"Transportation" = "وسائل النقل";
+"Select Transportation Availability" = "حدد النقل التوفر";
+"Distance" = "المسافات";
+"10 km" = "10 كم";
+"Filter" = "فلتر";
+"Distance (Miles)" = "المسافة (ميل)";
+
+// Edit Service
+"Service name" = "اسم الخدمة";
+"Transportation availability" = "توفر وسائل النقل";
+"Transportation Availability" = "توفر وسائل النقل";
+
+"Service type" = "نوع الخدمة";
+
+"Edit service" = "خدمة تحرير";
+"Save" = "حفظ";
+
+
+// Service Screen
+"Service" = "خدمات";
+"Service detail" = "معلومات مفصلة عن الخدمة";
+"Services offered" = "الخدمات المقدمة";
+"Services Offered" = "الخدمات المقدمة";
+
+"Services required" = "الخدمات المطلوبة";
+"Sales" = "مبيعات";
+"Required" = "مطلوب";
+"Inquiry" = "تحقيق";
+
+"Done" = "موافق";
+
+"+91" = "+91";
+
+"(Not available)" = "(غير متاح)";
+"(unknown)" = "(غير معروف)";
+
+"Unknown" = "غير معروف";
+
+
+"Available" = "متاح";
+"available" = "متاح";
+
+"Not Available" = "متاح ليس";
+
+"GRID" = " شبكة";
+"LIST" = " قائمة";
+
+"Currently no data are available. Please drag down to refresh" = "لاتوجد بيانات ، اسحب للأسف للتحديث";
+
+"Email id is not available" = "معرف البريد الإلكتروني غير متوفر";
+
+"Add new Post" = "إضافة مشاركة جديدة";
+
+"I'M IN HOME" = "I'M IN HOME";
+
+"NEW USER" = "مستخدم جديد";
+"EXISTING USER" = "مستخدم موجود";
+"Not an existing user." = "ليس مستخدم حالي.";
+"Next" = "التالى";
+

@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  ServicesListing
+
+  Created by Deepak Chauhan on 27/03/17.
+  Copyright © 2017 Tejas Pareek. All rights reserved.
+*/
+"CFBundleDisplayName" = "خدماتي";
+"CFBundleName" = "خدماتي";
+"NSLocationAlwaysUsageDescription" = "يتطلب هذا التطبيق خدمات الموقع للعمل";
+"NSLocationWhenInUseUsageDescription" = "يتطلب هذا التطبيق خدمات الموقع للعمل";

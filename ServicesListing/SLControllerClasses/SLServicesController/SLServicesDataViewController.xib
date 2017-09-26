@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-LightItalic.ttf">
+            <string>OpenSansLight-Italic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SLServicesDataViewController">
+            <connections>
+                <outlet property="activityIndicatorView" destination="ZIQ-LZ-iRZ" id="j6O-KE-k6X"/>
+                <outlet property="collectionView" destination="56c-j3-7Wj" id="MES-6b-hcX"/>
+                <outlet property="noDataFoundLabel" destination="erS-NJ-xZ1" id="rum-rI-Hzp"/>
+                <outlet property="tblView" destination="h4X-BL-YPU" id="vb5-kU-lvi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="h4X-BL-YPU">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="RaD-a1-iyt"/>
+                        <outlet property="delegate" destination="-1" id="7zC-UP-V60"/>
+                    </connections>
+                </tableView>
+                <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="56c-j3-7Wj" customClass="EDKeyboardAvoidingCollectionView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="11" minimumInteritemSpacing="11" id="19H-ne-0XZ">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Dlr-ru-70o"/>
+                        <outlet property="delegate" destination="-1" id="Z2W-YP-7n4"/>
+                    </connections>
+                </collectionView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="erS-NJ-xZ1">
+                    <rect key="frame" x="16" y="312" width="343" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="J9h-cH-joV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSansLight-Italic" family="Open Sans" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="ZIQ-LZ-iRZ">
+                    <rect key="frame" x="177" y="323" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="9bV-YK-isd"/>
+                        <constraint firstAttribute="height" constant="20" id="Dck-CJ-Orz"/>
+                    </constraints>
+                    <color key="color" red="0.22352941179999999" green="0.2784313725" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="0.33152681589999999" green="0.71016317610000002" blue="0.83932358029999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="56c-j3-7Wj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="0Kq-hD-W8V"/>
+                <constraint firstItem="h4X-BL-YPU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="48K-eC-qmZ"/>
+                <constraint firstItem="erS-NJ-xZ1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="7V8-zj-T2G"/>
+                <constraint firstItem="h4X-BL-YPU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9N2-Gl-zIe"/>
+                <constraint firstItem="ZIQ-LZ-iRZ" firstAttribute="centerX" secondItem="erS-NJ-xZ1" secondAttribute="centerX" id="HIp-hD-Hsg"/>
+                <constraint firstAttribute="trailing" secondItem="h4X-BL-YPU" secondAttribute="trailing" id="Jig-UV-Mno"/>
+                <constraint firstItem="56c-j3-7Wj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="JkM-ln-rDl"/>
+                <constraint firstAttribute="trailing" secondItem="56c-j3-7Wj" secondAttribute="trailing" id="Oo8-Lg-dbk"/>
+                <constraint firstItem="ZIQ-LZ-iRZ" firstAttribute="centerY" secondItem="erS-NJ-xZ1" secondAttribute="centerY" id="YW5-OH-SOD"/>
+                <constraint firstAttribute="bottom" secondItem="h4X-BL-YPU" secondAttribute="bottom" id="cFF-1h-9Am"/>
+                <constraint firstItem="erS-NJ-xZ1" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="eLY-aJ-yaw"/>
+                <constraint firstAttribute="trailing" secondItem="erS-NJ-xZ1" secondAttribute="trailing" constant="16" id="lfq-B9-h5v"/>
+                <constraint firstAttribute="bottom" secondItem="56c-j3-7Wj" secondAttribute="bottom" id="rNF-ZE-kxI"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

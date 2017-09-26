@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SLSelectLanguageViewController">
+            <connections>
+                <outlet property="arabicButton" destination="WuO-oo-Q7Z" id="hE2-Y3-Ph0"/>
+                <outlet property="chooseLanguageLabel" destination="qfD-Bd-4Bl" id="sH6-1O-R57"/>
+                <outlet property="englishButton" destination="O4G-Kw-V5L" id="XTe-CI-h4A"/>
+                <outlet property="mainView" destination="AeT-eI-9p7" id="JZW-jV-gR4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AeT-eI-9p7">
+                    <rect key="frame" x="15" y="209" width="569" height="182"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfD-Bd-4Bl">
+                            <rect key="frame" x="10" y="26" width="548" height="28"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="28" id="eKZ-Ly-fab"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="syE-j9-4fE">
+                            <rect key="frame" x="531" y="1" width="38" height="38"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="38" id="IcH-HK-guS"/>
+                                <constraint firstAttribute="width" constant="38" id="KFn-kk-NXF"/>
+                            </constraints>
+                            <state key="normal" image="cross"/>
+                            <connections>
+                                <action selector="crossButtonAction:" destination="-1" eventType="touchUpInside" id="Xi9-up-1Ti"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4G-Kw-V5L" customClass="SLCustomButton">
+                            <rect key="frame" x="47" y="73" width="474" height="36"/>
+                            <color key="backgroundColor" red="0.22352941176470587" green="0.27843137254901962" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="B43-1a-WYi"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="englishButtonAction:" destination="-1" eventType="touchUpInside" id="Gs1-QX-utM"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WuO-oo-Q7Z" customClass="SLCustomButton">
+                            <rect key="frame" x="48" y="126" width="474" height="36"/>
+                            <color key="backgroundColor" red="0.27450980392156865" green="0.27450980392156865" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="Meg-Ge-rWM"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="arabicButtonAction:" destination="-1" eventType="touchUpInside" id="hH5-Z6-mQ2"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="0.95249155405405406" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="qfD-Bd-4Bl" secondAttribute="trailing" constant="11" id="1tx-sQ-dGL"/>
+                        <constraint firstItem="qfD-Bd-4Bl" firstAttribute="top" secondItem="AeT-eI-9p7" secondAttribute="top" constant="26" id="3nU-nh-Y3G"/>
+                        <constraint firstAttribute="trailing" secondItem="WuO-oo-Q7Z" secondAttribute="trailing" constant="47" id="5CX-kR-eUP"/>
+                        <constraint firstItem="syE-j9-4fE" firstAttribute="top" secondItem="AeT-eI-9p7" secondAttribute="top" constant="1" id="9wn-jF-ETb"/>
+                        <constraint firstItem="WuO-oo-Q7Z" firstAttribute="top" secondItem="O4G-Kw-V5L" secondAttribute="bottom" constant="17" id="AOU-8F-5OK"/>
+                        <constraint firstItem="O4G-Kw-V5L" firstAttribute="top" secondItem="qfD-Bd-4Bl" secondAttribute="bottom" constant="19" id="RFl-du-4dT"/>
+                        <constraint firstItem="qfD-Bd-4Bl" firstAttribute="leading" secondItem="AeT-eI-9p7" secondAttribute="leading" constant="10" id="Rug-1p-KD4"/>
+                        <constraint firstAttribute="trailing" secondItem="syE-j9-4fE" secondAttribute="trailing" id="WHL-cW-HHS"/>
+                        <constraint firstItem="WuO-oo-Q7Z" firstAttribute="leading" secondItem="AeT-eI-9p7" secondAttribute="leading" constant="48" id="epO-m4-f5o"/>
+                        <constraint firstAttribute="height" constant="182" id="oF3-bu-sY3"/>
+                        <constraint firstAttribute="trailing" secondItem="O4G-Kw-V5L" secondAttribute="trailing" constant="48" id="qaL-dH-4aj"/>
+                        <constraint firstItem="O4G-Kw-V5L" firstAttribute="leading" secondItem="AeT-eI-9p7" secondAttribute="leading" constant="47" id="ua9-gG-bxV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="AeT-eI-9p7" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Wwz-GE-mHJ"/>
+                <constraint firstAttribute="trailing" secondItem="AeT-eI-9p7" secondAttribute="trailing" constant="16" id="gjl-Ej-JBM"/>
+                <constraint firstItem="AeT-eI-9p7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="xXg-hj-1ff"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="182" y="60"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cross" width="30" height="30"/>
+    </resources>
+</document>

@@ -1,0 +1,315 @@
+/* 
+  Localizable.strings
+  CrafTechApplication
+
+  Created by Ratneshwar Singh on 11/30/16.
+  Copyright © 2016 Mobiloitte Inc. All rights reserved.
+*/
+
+
+
+//Login Screen
+"Email" = "Email";
+"Password" = "Password";
+"OR" = "OR";
+"Mobile Number" = "Mobile Number";
+"Remember me" = "Remember me";
+"Forgot password?" = "Forgot password?";
+"LOGIN" = "LOGIN";
+"New user" = "New user";
+"Sign up" = "Sign up";
+"New user? " = "New user?";
+"I agree to the" = "I agree to the";
+"Terms & Services" = "Terms & Services";
+"of the application" = "of the application";
+
+
+//Forgot Screen
+"FORGOT PASSWORD" = "FORGOT PASSWORD";
+"Content" = "Please enter your registered email address. We will send you the reset instructions over your registered email address or Mobile Number!";
+"Email/Mobile Number" = "Email/Mobile Number";
+"SUBMIT" = "SUBMIT";
+
+//OTP Screen
+"OTP" = "OTP";
+"OTPContent" = "We have sent you the activation code over the SMS";
+"Please enter the activation code" = "Please enter the activation code";
+"Resend OTP" = "Resend OTP";
+
+
+// Complete Your Profile
+"COMPLETE YOUR PROFILE" = "COMPLETE YOUR PROFILE";
+"Current location" = "Current location";
+
+
+// SignUp Screen
+"First name" = "First name";
+"Last Name" = "Last Name";
+"Confirm Password" = "Confirm Password";
+"DOB" = "DOB";
+"Address" = "Address";
+
+
+// Profile Screen
+"Location" = "Location";
+"Email Address" = "Email Address";
+
+
+// Side Panel
+"Home" = "Home";
+"Notification" = "Notification";
+"My ads" = "My ads";
+"Post a new ad" = "Post a new ad";
+"My service" = "My service";
+"Terms & service" = "Terms & service";
+"Contact us" = "Contact us";
+"Privacy policy" = "Privacy policy";
+"Favorite" = "Favorite";
+"Logout" = "Logout";
+"SEND"   = "SEND";
+
+
+
+// Alert Strings
+"Validate email"    = "Please enter a valid email id.";
+"Enter password"    = "Please enter password.";
+"Password length"   = "Password must be in between 8 to 16 characters.";
+"Enter email"                = "Please enter email id.";
+"Validate email and mobile"  = "Please enter valid email id/Mobile number.";
+"Enter email and mobile"     = "Please enter email id/Mobile number.";
+
+
+"Enter first name"           = "Please enter first name.";
+"Enter last name"            = "Please enter last name.";
+
+
+"Enter mobile"               = "Please enter mobile number.";
+"Validate mobile"            = "Please enter a valid mobile number.";
+"Agree to terms"             = "Please agree to terms and conditions.";
+"Enter Old password"         = "Please enter old password.";
+
+"Enter new password"         = "Please enter new password.";
+"Validate new password"      = "New password must be atleast 8 characters.";
+"Enter confirm password"     = "Please enter confirm password.";
+"Validate confirm password"  = "Confirm password must be in between 8 to 16 characters.";
+"Match new and confirm password"  = "New password and Confirm password does not match.";
+
+"Match password and confirm password" = "Password and Confirm password does not match.";
+
+"Enter otp"                 = "Please enter otp.";
+"Validate otp"              = "Please enter valid otp.";
+"Select dob"                = "Please select date of birth.";
+"Enter address"             = "Please enter address.";
+"Enter location"             = "Please enter location.";
+
+
+"Check camera"              = "Device has no camera.";
+
+"Please enter requirement"              = "Please enter requirement.";
+"Please select category"              = "Please select category.";
+"Please select service type"              = "Please select service type.";
+"Please select transpotation"              = "Please select transpotation.";
+"Please enter description"              = "Please enter description.";
+"Please enter price"              = "Please enter price.";
+
+"Please select subject"              = "Please select subject.";
+"Please enter problem"              = "Please enter problem.";
+
+
+
+// Post a New Add Screen
+"Requirement Name" = "Requirement Name";
+"Select Category" = "Select Category";
+"Select Service Type" = "Select Service Type";
+"Select Transportation" = "Select Transportation";
+"Description" = "Description";
+"Price" = "Price";
+
+// Home Screen
+"Teaching" = "TEACHING";
+"Painting" = "PAINTING";
+"Cooking" = "COOKING";
+"Construction" = "CONSTRUCTION";
+"Tailor" = "TAILOR";
+"Mechanic" = "MECHANIC";
+
+
+// Report Screen
+"Report your problem" = "Report your problem";
+"Subject" = "Subject";
+
+
+////Sign Up Screen
+//"Password" = "Password";
+//"Confirm Password" = "Confirm Password";
+//"Phone Number" = "Phone Number";
+//"SIGN UP" = "SIGN UP";
+//"Already have an account?" = "Already have an account?";
+//"Login" = "Login";
+//"By Creating an account, you agree to CrafTech's " = "By Creating an account, you agree to CrafTech's ";
+//"Terms & Conditions" = "Terms & Conditions";
+//"Terms of Service." = "Terms of Service.";
+//"First Name" = "First Name";
+//"Last Name" = "Last Name";
+//
+////Select Service Screen
+//"Select Service" = "Select Service";
+//"FIX NOW" = "FIX NOW";
+//"FIX LATER" = "FIX LATER";
+//"PROGRAMMING" = "PROGRAMMING";
+//"CLEANING" = "CLEANING";
+//"REPAIR" = "REPAIR";
+//"Smoke detector" = "Smoke detector";
+//
+//"AC" = "AC";
+//"Electricity" = "Electricity";
+//"Plumbing" = "Plumbing";
+//"Carpentry" = "Carpentry";
+//"Flooring" = "Flooring";
+//"Painting" = "Painting" ;
+//"Gymsun Board" = "Gymsun Board";
+//"CCTV" = "CCTV";
+//"Fire Alarm" = "Fire Alarm";
+//
+//
+////Fix Later Screen
+//"Fix Later" = "Fix Later";
+//"Next" = "Next";
+//
+////Dummy data localization
+//"December" = "December";
+//"MON" = "MON";
+//"TUE" = "TUE";
+//"WED" = "WED";
+//"THU" = "THU";
+//"FRI" = "FRI";
+//"16" = "16";
+//"17" = "17";
+//"18" = "18";
+//"19" = "19";
+//"19" = "19";
+//
+/////Fix Details Screen
+//"Fix Details" = "Fix Details";
+//"Date & Time" = "Date & Time";
+//"Service" = "Service";
+//"Note" = "Note";
+//"SEND" = "SEND";
+//"CANCEL BOOKING" = "CANCEL BOOKING";
+//
+////My Services Screen
+//"My Services" = "My Services";
+//"JO : 00312" = "JO : 00312";
+//"AC Cleaning" = "AC Cleaning";
+//
+////Settings Screen
+//"Settings" = "Settings";
+//"Name" = "Name";
+//"Mobile" = "Mobile";
+//"Email" = "Email";
+//"Change Password" = "Change Password";
+//"Rate the App!" = "Rate the App!";
+//"Feedback" = "Feedback";
+//"SIGN OUT" = "SIGN OUT";
+//"HomeFix app version 1.0" = "HomeFix app version 1.0";
+//"Edit Profile" = "Edit Profile";
+//
+//
+////Menu Screen
+//"Services" = "Services";
+//"Select your service" = "Select your service";
+//"Manage your account" = "Manage your account";
+//"Call Us" = "Call Us";
+//"We can help" = "We can help";
+//"Email Us" = "Email Us";
+//"Home" = "Home";
+//"View your Jobs" = "View your Jobs";
+//
+////Edit Profile
+//"UPDATE PROFILE" = "UPDATE PROFILE";
+//
+////Change Password Screen :
+//"Change Password" = "Change Password";
+//"CHANGE PASSWORD" = "CHANGE PASSWORD";
+//"Old Password" = "Old Password";
+//"New Password" = "New Password";
+//"Confirm New Password" = "Confirm New Password";
+//
+////Alerts
+//"Are you sure you want to send a request for fixing the issues now?" = "Are you sure you want to send a request for fixing the issues now?";
+//"Yes" = "Yes";
+//"No" = "No";
+//"Error!" = "Error!";
+//"OK" = "OK";
+//"Call facility is not available" = "Call facility is not available";
+//"This device cannot send email" = "This device cannot send email";
+//"Please enter username." = "Please enter username.";
+//"Please enter password." = "Please enter password.";
+//"Password length shouldn't be less than 8 characters." = "Password length shouldn't be less than 8 characters.";
+//"Please enter email address." = "Please enter email address.";
+//"Please enter valid email address." = "Please enter valid email address.";
+//"Please enter confirm password." = "Please enter confirm password.";
+//"Password & confirm password do not match." = "Password & confirm password do not match.";
+//"Please enter phone number." = "Please enter phone number.";
+//"Please enter valid phone number." = "Please enter valid phone number.";
+//"Minimum length of phone number is 10." = "Minimum length of phone number is 10.";
+//"Please select your profile picture." = "Please select your profile picture.";
+//"Select your choice:" = "Select your choice:";
+//"Take from Camera" = "Take from Camera";
+//"Choose from Gallery" = "Choose from Gallery";
+//"Camera is not available" = "Camera is not available";
+//
+//"Please enter first name." = "Please enter first name.";
+//"Please enter a valid first name." = "Please enter a valid first name.";
+//"Please enter last name." = "Please enter last name.";
+//"Please enter a valid last name." = "Please enter a valid last name.";
+//"We couldn't connect to App Store. Please try again later!!!" = "We couldn't connect to App Store. Please try again later!!!";
+//"We are grateful for your feedback." = "We are grateful for your feedback.";
+//"We are getting some problem in sending mail. Please try again later." = "We are getting some problem in sending mail. Please try again later.";
+//"Sorry!" = "Sorry!";
+//"Are you sure to Sign Out?" = "Are you sure to Sign Out?";
+//"This device cannot send email" = "This device cannot send email";
+//"We shall get back to as soon as possible." = "We shall get back to as soon as possible.";
+//"Call facility is not available!!!" = "Call facility is not available!!!";
+//"We will send you a one time password to verify your phone number." = "We will send you a one time password to verify your phone number.";
+//
+//"ENGLISH" = "ENGLISH";
+//"Confirm" = "Confirm";
+//"Choose Language" = "Choose Language";
+//
+//
+//"SUBMIT" = "SUBMIT";
+//"Add Comment to the Job" = "Add Comment to the Job";
+//"ADD COMMENT" = "ADD COMMENT";
+//"Please add any comment first." = "Please add any comment first.";
+//"Please select any service." = "Please select any service.";
+//"Please enter atleast two characters for first name." = "Please enter atleast two characters for first name.";
+//"Please enter atleast two characters for last name." = "Please enter atleast two characters for first name.";
+//
+//"Jan" = "Jan";
+//"Fab" = "Fab";
+//"Mar" = "Mar";
+//"Apr" = "Apr";
+//"May" = "May";
+//"Jun" = "Jun";
+//"Jul" = "Jul";
+//"Aug" = "Aug";
+//"Sep" = "Sep";
+//"Oct" = "Oct";
+//"Nov" = "Nov";
+//"Dec" = "Dec";
+//"AM" = "AM";
+//"PM"="PM";
+//"at"="at";
+//"Are you sure you want to send a request for fixing the issue on" = "Are you sure you want to send a request for fixing the issue on";
+//"service successfully selected" = "service successfully selected";
+//"Something went wrong!" = "Something went wrong!";
+//"Please try again later." = "Please try again later.";
+//
+//"Enter One Time Code" = "Enter One Time Code";
+//"Enter the one time code you have received on your Phone Number." = "Enter the one time code you have received on your Phone Number.";
+//"One Time Code" = "One Time Code";
+//"Resend One Time Code"="Resend One Time Code";
+//"CONFIRM"="CONFIRM";
+//
+//

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="signUpTwoFieldCellId" id="KGk-i7-Jjw" customClass="SLSignUpTwoFieldTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="600" height="57"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g5a-2Y-rgX" customClass="SLCustomTextFieldBlackPlaceholder">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="Od7-eb-uNr"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <connections>
+                            <outlet property="delegate" destination="-1" id="ufp-km-Gjk"/>
+                        </connections>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YW0-nD-C1E" customClass="SLCustomTextFieldBlackPlaceholder">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="BJl-vM-VSz"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <connections>
+                            <outlet property="delegate" destination="-1" id="DjC-vu-DAd"/>
+                        </connections>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9e-bC-ozG">
+                        <color key="backgroundColor" red="0.81960784313725488" green="0.81960784313725488" blue="0.81960784313725488" alpha="0.95249155405405406" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="6d3-ou-BII"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oq3-Wy-EKo">
+                        <color key="backgroundColor" red="0.81960784313725488" green="0.81960784313725488" blue="0.81960784313725488" alpha="0.95249155405405406" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="3cX-MZ-CQo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="t9e-bC-ozG" firstAttribute="top" secondItem="g5a-2Y-rgX" secondAttribute="bottom" constant="11" id="18o-ql-fLi"/>
+                    <constraint firstAttribute="bottom" secondItem="t9e-bC-ozG" secondAttribute="bottom" constant="1" id="1Qp-su-RuN"/>
+                    <constraint firstItem="oq3-Wy-EKo" firstAttribute="width" secondItem="t9e-bC-ozG" secondAttribute="width" id="34L-As-Uny"/>
+                    <constraint firstItem="t9e-bC-ozG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="3lp-Xp-ssi"/>
+                    <constraint firstItem="oq3-Wy-EKo" firstAttribute="leading" secondItem="t9e-bC-ozG" secondAttribute="trailing" constant="42" id="80j-kB-D98"/>
+                    <constraint firstItem="YW0-nD-C1E" firstAttribute="height" secondItem="g5a-2Y-rgX" secondAttribute="height" id="OcU-ch-ElR"/>
+                    <constraint firstAttribute="trailing" secondItem="oq3-Wy-EKo" secondAttribute="trailing" constant="40" id="XtQ-RS-D2y"/>
+                    <constraint firstItem="YW0-nD-C1E" firstAttribute="leading" secondItem="g5a-2Y-rgX" secondAttribute="trailing" constant="50" id="aOn-e1-WVl"/>
+                    <constraint firstItem="YW0-nD-C1E" firstAttribute="width" secondItem="g5a-2Y-rgX" secondAttribute="width" constant="-3" id="bDH-YJ-ffI"/>
+                    <constraint firstItem="oq3-Wy-EKo" firstAttribute="height" secondItem="t9e-bC-ozG" secondAttribute="height" id="d4k-aF-feg"/>
+                    <constraint firstAttribute="bottom" secondItem="oq3-Wy-EKo" secondAttribute="bottom" constant="1" id="iDl-fr-zSe"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="YW0-nD-C1E" secondAttribute="trailing" constant="42" id="ieu-eG-mN0"/>
+                    <constraint firstItem="g5a-2Y-rgX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="41" id="kFO-dK-PAx"/>
+                    <constraint firstItem="oq3-Wy-EKo" firstAttribute="top" secondItem="YW0-nD-C1E" secondAttribute="bottom" constant="11" id="l5m-cb-EaO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="signUpLeftTextField" destination="g5a-2Y-rgX" id="Mdf-dz-eNA"/>
+                <outlet property="signUpRightTextField" destination="YW0-nD-C1E" id="P5N-QK-xcc"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

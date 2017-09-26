@@ -1,0 +1,323 @@
+/* 
+  Localizable.strings
+  CrafTechApplication
+
+  Created by Ratneshwar Singh on 11/30/16.
+  Copyright © 2016 Mobiloitte Inc. All rights reserved.
+*/
+
+//Login Screen
+"Email" = "البريد الإلكتروني";
+"Password" = "كلمه السر";
+"OR" = "أو";
+"Mobile Number" = "رقم الهاتف المحمول";
+"Remember me" = "تذكرني";
+"Forgot password?" = "هل نسيت كلمة المرور";
+"LOGIN" = "تسجيل دخول";
+"New user" = "مستخدم جديد";
+"Sign up" = "سجّل الأن";
+"New user? " = "مستخدم جديد؟ ";
+"I agree to the" = "أنا أوافق على";
+"Terms & Services" = "الشروط والخدمات";
+"of the application" = "من التطبيق";
+
+
+//Forgot Screen
+"FORGOT PASSWORD" = "نسيت كلمة المرور";
+"Content" = "يرجى ادخال البريد المسجل وسنقوم بارسال التعليمات للبريد أو رقم الهاتف";
+"Email/Mobile Number" = "البريد الإلكتروني / رقم الجوال";
+"SUBMIT" = "أرسل";
+
+//OTP Screen
+"OTP" = "OTP";
+"OTPContent" = "تم ارسال رمز التفعيل";
+"Please enter the activation code" = "الرجاء إدخال رمز التفعيل
+";
+"Resend OTP" = "اعادة ارسال الرمز";
+
+
+// Complete Your Profile
+"COMPLETE YOUR PROFILE" = "أكمل ملف التعريف";
+"Current location" = "الموقع الحالي";
+
+
+// SignUp Screen
+"First name" = "الاسم الاول";
+"Last Name" = "الكنية";
+"Password" = "كلمة المرور";
+"Confirm Password" = "تأكيد كلمة المرور";
+"DOB" = "تاريخ الميلاد";
+"Address" = "عنوان";
+
+
+// Profile Screen
+"Email Address" = "البريد الإلكتروني";
+"Location" = "الموقع";
+
+
+
+// Side Panel
+"Home" = " الرئيسية
+";
+"Notification" = "تنبيهات";
+"My ads" = "إعلاناتي";
+"Post a new ad" = "ادراج اعلان";
+"My service" = "خدماتي";
+"Terms & service" = "الشروط ةالأحكام";
+"Contact us" = "اتصل بنا";
+"Privacy policy" = "سياسة الخصوصية";
+"Favorite" = "المفضلة";
+"Logout" = "خروج";
+"SEND"   = "إرسال";
+
+
+// Alert Strings
+"Validate email"    = "يرجى ادخال بريد الكتروني صالح";
+"Enter password"    = "يرجى ادخال كلمة السر";
+"Password length"   = "كلمة السر بين 8 الى 16 حرف";
+"Enter email"                = "يرجى ادخال البريد الالكتروني";
+"Validate email and mobile"  = "يرجى ادخال بريد الكتروني صالح / رقم الهاتف";
+"Enter email and mobile"     = "يرجى ادخال البريد الالكتروني / رقم الهاتف";
+
+
+"Enter first name"           = "أدخل الاسم الأول";
+"Enter last name"            = "أدخل الاسم الأخير";
+
+
+"Enter mobile"               = "أدخل رقم الجوال";
+"Validate mobile"            = "أدخل رقم جوال صالح";
+"Agree to terms"             = "يرجى الموافقة على الشروط والأحكام";
+"Enter Old password"         = "أدخل كلمة المرور السابقة";
+
+"Enter new password"         = "أدخل كلمة المرور الجديدة";
+"Validate new password"      = "كلمة السر يجب أن لاتق عن 8 أحرف";
+"Enter confirm password"     = "تأكيد كلمة السر";
+"Validate confirm password"  = "كلمة السر يجب أن لاتق عن 8 أحرف";
+"Match new and confirm password"  = "كلمة السر الجديدة وتأكيد كلمة السر غير متطابقان";
+
+"Match password and confirm password" = "كلمة السر وتأكيد كلمة السر غير متطابقان";
+
+"Enter otp"                 = "أدخل كلمة السر لمرة واحدة (OTP)";
+"Validate otp"              = "أدخل (OTP) صالحة";
+"Select dob"                = "أدخل تاريخ الميلاد";
+"Enter address"             = "أدخل العنوان";
+"Enter location"            = "أدخل العنوان";
+
+"Check camera"              = "الأداة لاتحتوي على كاميرا";
+
+"Please enter requirement"      = "";
+"Please select category"        = "الرجاء تحديد الفئة";
+"Please select service type"    = "يرجى تحديد نوع الخدمة";
+"Please select transpotation"   = "";
+"Please enter description"      = "الرجاء إدخال وصف
+";
+"Please enter price"            = "الرجاء إدخال سعر";
+
+"Please select subject"         = "يرجى تحديد موضوع";
+"Please enter problem"          = "الرجاء إدخال مشكلة";
+
+
+
+
+// Post a New Add Screen
+"Requirement Name" = "";
+"Select Category" = "اختر الفئة
+";
+"Select Service Type" = "اختر نوع الخدمة
+";
+"Select Transportation" = "حدد النقل";
+"Description" = "";
+"Price" = "السعر";
+
+// Home Screen
+"Teaching" = "TEACHING";
+"Painting" = "لوحة";
+"Cooking" = "COOKING";
+"Construction" = "إنشاءات";
+"Tailor" = "خياط";
+"Mechanic" = "MECHANIC";
+
+
+// Report Screen
+"Report your problem" = "";
+"Subject" = "";
+
+////Sign Up Screen
+//"Password" = "كلمة المرور";
+//"Confirm Password" = "تأكيد كلمة المرور";
+//"Phone Number" = "رقم الجوال";
+//"SIGN UP" = "سجّل الأن";
+//"Already have an account?" = "لديك حساب معنا؟";
+//"Login" = "تسجيل دخول";
+//"By Creating an account, you agree to HomeFix’s " = "أوافق على شروط وأحكام هوم فيكس لتأسيس حساب جديد ";
+//"Terms & Conditions" = "الشروط والأحكام ";
+//"Terms of Service." = "الشروط والأحكام ";
+//"First Name" = "الاسم الاول";
+//"Last Name" = "الكنية";
+//
+////Select Service Screen
+//"Select Service" = "حدّد الخدمة المطلوبة";
+//"FIX NOW" = "طلب الأن";
+//"FIX LATER" = "طلب لاحقاً";
+//"Smoke detector" = "كاشف الدخان";
+//"AC" = "تكييف";
+//"Electricity" = "كهرباء";
+//"Plumbing" = "سباكة";
+//"Carpentry" = "نجارة";
+//"Flooring" = "أرضيات";
+//"Painting" = "دهانات";
+//"Gymsun Board" = "ديكور";
+//"CCTV" = "كاميرات مراقبة";
+//"Fire Alarm" = "أجهزة إنذار";
+//
+//
+//"PROGRAMMING" = "برمجة";
+//"CLEANING" = "تنظيف";
+//"REPAIR" = "يصلح";
+//
+////Fix Later Screen
+//"Fix Later" = "طلب لاحقاً";
+//"Next" = "التالي";
+//
+//
+////Dummy data localization
+//"December" = "ديسمبر";
+//
+//"MON" = "الأثنين";
+//"TUE" = "الثلاثاء";
+//"WED" = "الأربعاء";
+//"THU" = "الخميس";
+//"FRI" = "الجمعة";
+//"SAT" = "يوم السبت";
+//"SUN" = "الأحد";
+//
+//"16" = "16";
+//"17" = "17";
+//"18" = "18";
+//"19" = "19";
+//"20" = "20";
+//
+/////Fix Details Screen
+//"Fix Details" = "تفاصيل محددة";
+//"Date & Time" = "التاريخ والوقت";
+//"Service" = "الخدمة";
+//"Note" = "ملاحظة";
+//"SEND" = "إرسال";
+//"CANCEL BOOKING" = "إلغاء الطلب";
+//
+////My Services Screen
+//"My Services" = "طلباتي";
+//"JO : 00312" = "JO: 00312";
+//"AC" = "تكييف";
+//
+////Settings Screen
+//"Settings" = "إعدادات";
+//"Name" = "الأسم";
+//"Mobile" = "رقم الجوال";
+//"Email" = "البريد الإلكتروني";
+//"Change Password" = "تغيير كلمة المرور";
+//"Rate the App!" = "قيّم التطبيق!";
+//"Feedback" = "شاركنا إنطباعك";
+//"SIGN OUT" = "تسجيل خروج";
+//"HomeFix app version 1.0" = "تطبيق هوم فيكس نسخة 1.0";
+//"Edit Profile" = "تعديل الملف الشخصي";
+//
+////Menu Screen
+//"Services" = "خدمات";
+//"Select your service" = "اختر الخدمة ";
+//"View your Jobs" = "عرض الطلبات";
+//"Manage your account" = "إدارة حسابك";
+//"Call Us" = "سمّعنا صوتك";
+//"We can help" = "نقدر نخدمك";
+//"Email Us" = "راسلنا";
+//
+//"Home" = "الصفحة الرئيسية";
+//
+////Edit Profile
+//"UPDATE PROFILE" = "تحديث الملف";
+//
+//
+////Change Password Screen :
+//"Change Password" = "تغيير كلمة السر";
+//"CHANGE PASSWORD" = "تغيير كلمة السر";
+//"Old Password" = "كلمة المرور القديمة";
+//"New Password" = "كلمة السر الجديدة";
+//"Confirm New Password" = "تأكيد كلمة المرور الجديدة";
+//
+//
+////Alerts
+//"Are you sure want to send a request for fixing the issue now?" = "هل أنت متأكد من إرسال طلب الخدمة الأن؟";
+//"Yes" = "نعم";
+//"No" = "لا";
+//"Error!" = "تأكد!";
+//"OK" = "موافق";
+//"Call facility is not available" = "الإتصال غير متوفر";
+//"This device cannot send email" = "الجهاز غير قادر على إرسال البريد الإلكتروني";
+//
+//"Please enter first name." = "الرجاء, إدخال الأسم الأول";
+//"Please enter last name." = "الرجاء, إدخال الأسم الأخير";
+//"Please enter password." = "الرجاء, إدخال كلمة المرور";
+//"Password length shouldn't be less than 8 characters." = "يجب أن تكون كلمة المرور ٨ أحرف عالأقل";
+//"Please enter email address." = "الرجاء, إدخال البريد الإلكتروني";
+//"Please enter valid email address." = "الرجاء, إدخال بريد إلكتروني صحيح";
+//"Please enter confirm password." = "الرجاء, إدخال تأكيد لكلمة المرور";
+//"Password & confirm password do not match." = "كلمة المرور غير متطابقة";
+//"Please enter phone number." = "الرجاء, إدخال رقم الجوال";
+//"Please enter valid phone number." = "الرجاء, إدخال رقم جوال صحيح";
+//"Minimum length of phone number is 10." = "يجب أن يكون رقم الجوال من ١٠ خانات";
+//
+//"Please select your profile picture." = "الرجاء, إختيار صورة الملف الشخصي";
+//"Select your choice:" = "أختر من القائمة";
+//"Take from Camera" = "تصوير بواسطة الكاميرا";
+//"Choose from Gallery" = "إختيار من ألبوم الصور";
+//"Camera is not available" = "الكاميرا غير متوفرة";
+//
+//"Please enter a valid first name." = "الرجاء إدخال الاسم الأول صالح.";
+//"Please enter a valid last name." = "رجاء قم بإدخال الاسم الاخير بشكل صحيح.";
+//"We couldn't connect to App Store. Please try again later!!!" = "لم نتمكن من الاتصال المتجر. الرجاء معاودة المحاولة في وقت لاحق!!!";
+//"We are grateful for your feedback." = "ونحن ممتنون لملاحظاتك.";
+//"We are getting some problem in sending mail. Please try again later." = "ونحن الحصول على بعض المشاكل في إرسال البريد. الرجاء معاودة المحاولة في وقت لاحق.";
+//"Sorry!" = "آسف!";
+//"Are you sure to Sign Out?" = "هل أنت متأكد من تسجيل الخروج؟";
+//"We shall get back to as soon as possible." = "سوف نعود إلى أقرب وقت ممكن.";
+//"Call facility is not available!!!" = "منشأة المكالمة غير متوفر!";
+//"We will send you a one time password to verify your phone number." = "وسوف نرسل لك كلمة سر لمرة واحدة للتحقق من رقم هاتفك.";
+//"ENGLISH" = "الإنجليزية";
+//"Confirm" = "أكد";
+//"Choose Language" = "اختر اللغة";
+//
+//"SUBMIT" = "SUBMIT";
+//"Add Comment to the Job" = "Add Comment to the Job";
+//"ADD COMMENT" = "ADD COMMENT";
+//"Please add any comment first." = "Please add any comment first.";
+//"Please select any service." = "Please select any service.";
+//"Please enter atleast two characters for first name." = "Please enter atleast two characters for first name.";
+//"Please enter atleast two characters for last name." = "Please enter atleast two characters for first name.";
+//"Jan" = "Jan";
+//"Fab" = "Fab";
+//"Mar" = "Mar";
+//"Apr" = "Apr";
+//"May" = "May";
+//"Jun" = "Jun";
+//"Jul" = "Jul";
+//"Aug" = "Aug";
+//"Sep" = "Sep";
+//"Oct" = "Oct";
+//"Nov" = "Nov";
+//"Dec" = "Dec";
+//"AM" = "AM";
+//"PM"="PM";
+//"at"="at";
+//"Are you sure you want to send a request for fixing the issue on" = "Are you sure you want to send a request for fixing the issue on";
+//"Service successfully selected." = "Service successfully selected.";
+//
+//"Something went wrong!" = "Something went wrong!";
+//"Please try again later." = "Please try again later.";
+//
+//
+//"Enter One Time Code" = "إدخال رمز التفعيل";
+//"Enter the one time code you have received on your Phone Number." = "يجب إدخال رمز التفعيل المُرسل إلى رقم جوالك";
+//"One Time Code" = "رمز تفعيل";
+//"Resend One Time Code"="إعادة إرسال رمز التفعيل";
+//"CONFIRM"="تأكيد";
+//"Please enter OTC" = "الرجاء، إدخال رمز التفعيل";

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="43" id="KGk-i7-Jjw" customClass="SLServiceDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="601" height="38"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="601" height="37"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="puU-Fi-Wf7">
+                        <rect key="frame" x="3" y="0.0" width="145" height="36"/>
+                        <color key="backgroundColor" red="0.86538617230000003" green="0.86538617230000003" blue="0.86538617230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transportation Availability" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="aN5-Rk-McP">
+                        <rect key="frame" x="149" y="0.0" width="151" height="36"/>
+                        <color key="backgroundColor" red="0.86538617227979275" green="0.86538617227979275" blue="0.86538617227979275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="hRL-jZ-VgL">
+                        <rect key="frame" x="302" y="0.0" width="150" height="36"/>
+                        <color key="backgroundColor" red="0.86538617230000003" green="0.86538617230000003" blue="0.86538617230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ZuQ-pp-I4v">
+                        <rect key="frame" x="453" y="0.0" width="145" height="36"/>
+                        <color key="backgroundColor" red="0.86538617230000003" green="0.86538617230000003" blue="0.86538617230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="2R4-lz-EkZ"/>
+                            <constraint firstAttribute="width" constant="145" id="sxF-6E-gpM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZuQ-pp-I4v" firstAttribute="height" secondItem="puU-Fi-Wf7" secondAttribute="height" id="5Sj-xF-AKK"/>
+                    <constraint firstItem="hRL-jZ-VgL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="8P1-ba-3bi"/>
+                    <constraint firstItem="hRL-jZ-VgL" firstAttribute="width" secondItem="puU-Fi-Wf7" secondAttribute="width" constant="5" id="94y-Z4-V67"/>
+                    <constraint firstItem="puU-Fi-Wf7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="3" id="DNy-Xe-GIH"/>
+                    <constraint firstItem="aN5-Rk-McP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="FPD-BB-Ok1"/>
+                    <constraint firstItem="aN5-Rk-McP" firstAttribute="width" secondItem="puU-Fi-Wf7" secondAttribute="width" constant="5.5" id="JLS-5f-bFa"/>
+                    <constraint firstItem="hRL-jZ-VgL" firstAttribute="height" secondItem="puU-Fi-Wf7" secondAttribute="height" id="MR0-iX-XD0"/>
+                    <constraint firstItem="aN5-Rk-McP" firstAttribute="height" secondItem="puU-Fi-Wf7" secondAttribute="height" id="bUt-nj-ip4"/>
+                    <constraint firstItem="aN5-Rk-McP" firstAttribute="leading" secondItem="puU-Fi-Wf7" secondAttribute="trailing" constant="1" id="dEQ-ga-1k8"/>
+                    <constraint firstAttribute="trailing" secondItem="ZuQ-pp-I4v" secondAttribute="trailing" constant="3" id="e6V-YK-kKF"/>
+                    <constraint firstItem="puU-Fi-Wf7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="iwR-Ds-e1e"/>
+                    <constraint firstItem="ZuQ-pp-I4v" firstAttribute="leading" secondItem="hRL-jZ-VgL" secondAttribute="trailing" constant="1" id="k0D-2B-eMx"/>
+                    <constraint firstItem="ZuQ-pp-I4v" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="wb9-Me-5D8"/>
+                    <constraint firstItem="hRL-jZ-VgL" firstAttribute="leading" secondItem="aN5-Rk-McP" secondAttribute="trailing" constant="2" id="zeV-k7-ceK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="categoryLabel" destination="puU-Fi-Wf7" id="aZW-IK-Qt3"/>
+                <outlet property="priceLabel" destination="ZuQ-pp-I4v" id="0PQ-Pp-0Au"/>
+                <outlet property="priceTitleWidthConstraint" destination="sxF-6E-gpM" id="VDE-aq-ym3"/>
+                <outlet property="serviceTypeLabel" destination="hRL-jZ-VgL" id="Fxc-aL-pIb"/>
+                <outlet property="transportAvailabilityLabel" destination="aN5-Rk-McP" id="gUC-zX-Jlz"/>
+            </connections>
+            <point key="canvasLocation" x="78.5" y="57"/>
+        </tableViewCell>
+    </objects>
+</document>

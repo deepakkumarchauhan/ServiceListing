@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SLSortViewController">
+            <connections>
+                <outlet property="applyButton" destination="JuV-zq-TSC" id="AUq-nh-Jap"/>
+                <outlet property="cancelButton" destination="hVd-bx-MWr" id="G9U-fK-lf4"/>
+                <outlet property="languageButton" destination="CVx-qr-c7b" id="XdT-lC-nlg"/>
+                <outlet property="navView" destination="mEP-pr-uep" id="D2t-tW-Qob"/>
+                <outlet property="tableView" destination="4dp-TI-Fxt" id="bOi-A2-8yc"/>
+                <outlet property="titleLabel" destination="Ym3-Vq-gjF" id="aVM-iH-sV5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4dp-TI-Fxt">
+                    <rect key="frame" x="0.0" y="64" width="600" height="456"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="xjB-gb-x6w"/>
+                        <outlet property="delegate" destination="-1" id="qhS-Su-RjS"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mEP-pr-uep">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVx-qr-c7b">
+                            <rect key="frame" x="557" y="21" width="35" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="35" id="SZV-af-yKS"/>
+                                <constraint firstAttribute="height" constant="35" id="b0A-yh-BdK"/>
+                            </constraints>
+                            <state key="normal" image="language"/>
+                            <connections>
+                                <action selector="selectLanguageButtonAction:" destination="-1" eventType="touchUpInside" id="fDC-7J-clY"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1QM-hE-B5t">
+                            <rect key="frame" x="0.0" y="21" width="35" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="IZI-7S-yKH"/>
+                                <constraint firstAttribute="width" constant="35" id="KIF-iI-PkV"/>
+                            </constraints>
+                            <state key="normal" image="back"/>
+                            <connections>
+                                <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="VJR-y6-mK8"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ym3-Vq-gjF">
+                            <rect key="frame" x="79" y="21" width="441" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="4vn-sH-SuA"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="19"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.22352941179999999" green="0.2784313725" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="Ym3-Vq-gjF" firstAttribute="leading" secondItem="1QM-hE-B5t" secondAttribute="trailing" constant="44" id="35X-AB-p5B"/>
+                        <constraint firstItem="CVx-qr-c7b" firstAttribute="top" secondItem="mEP-pr-uep" secondAttribute="top" constant="21" id="9bs-Ew-Wme"/>
+                        <constraint firstAttribute="trailing" secondItem="CVx-qr-c7b" secondAttribute="trailing" constant="8" id="C02-SG-Ekm"/>
+                        <constraint firstItem="1QM-hE-B5t" firstAttribute="top" secondItem="mEP-pr-uep" secondAttribute="top" constant="21" id="EzV-9z-CZg"/>
+                        <constraint firstItem="Ym3-Vq-gjF" firstAttribute="centerY" secondItem="1QM-hE-B5t" secondAttribute="centerY" id="Nho-4x-P6w"/>
+                        <constraint firstAttribute="height" constant="64" id="VrG-FW-0HC"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="b7z-cz-VrW"/>
+                        <constraint firstItem="1QM-hE-B5t" firstAttribute="leading" secondItem="mEP-pr-uep" secondAttribute="leading" id="dzX-6n-X80"/>
+                        <constraint firstItem="CVx-qr-c7b" firstAttribute="leading" secondItem="Ym3-Vq-gjF" secondAttribute="trailing" constant="37" id="pr0-WN-uRg"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JuV-zq-TSC" customClass="SLCustomButton">
+                    <rect key="frame" x="36" y="543" width="258" height="37"/>
+                    <color key="backgroundColor" red="0.2196078431372549" green="0.27450980392156865" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="wal-6x-XJX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="15"/>
+                    <state key="normal" title="APPLY">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="applyButtonAction:" destination="-1" eventType="touchUpInside" id="vEt-Vl-U7T"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVd-bx-MWr" customClass="SLCustomButton">
+                    <rect key="frame" x="306" y="543" width="258" height="37"/>
+                    <color key="backgroundColor" red="0.30588235294117649" green="0.30588235294117649" blue="0.30588235294117649" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="S9s-Q2-EyL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="15"/>
+                    <state key="normal" title="CANCEL">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelButtonAction:" destination="-1" eventType="touchUpInside" id="fsA-lu-QS0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mEP-pr-uep" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="56j-jP-kl5"/>
+                <constraint firstItem="4dp-TI-Fxt" firstAttribute="top" secondItem="mEP-pr-uep" secondAttribute="bottom" id="6uq-Ed-Swe"/>
+                <constraint firstAttribute="trailing" secondItem="hVd-bx-MWr" secondAttribute="trailing" constant="36" id="KWq-ZM-kfF"/>
+                <constraint firstItem="4dp-TI-Fxt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OWJ-oe-GRi"/>
+                <constraint firstItem="hVd-bx-MWr" firstAttribute="width" secondItem="JuV-zq-TSC" secondAttribute="width" id="Ojz-BN-ImN"/>
+                <constraint firstItem="JuV-zq-TSC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="36" id="OlW-61-bYp"/>
+                <constraint firstAttribute="bottom" secondItem="hVd-bx-MWr" secondAttribute="bottom" constant="20" id="PxM-dy-tjZ"/>
+                <constraint firstItem="hVd-bx-MWr" firstAttribute="leading" secondItem="JuV-zq-TSC" secondAttribute="trailing" constant="12" id="cWU-UZ-mh7"/>
+                <constraint firstItem="JuV-zq-TSC" firstAttribute="top" secondItem="4dp-TI-Fxt" secondAttribute="bottom" constant="23" id="emD-Ws-FVQ"/>
+                <constraint firstItem="mEP-pr-uep" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kCR-Jd-Mwg"/>
+                <constraint firstAttribute="trailing" secondItem="4dp-TI-Fxt" secondAttribute="trailing" id="nOP-s6-Ytt"/>
+                <constraint firstAttribute="bottom" secondItem="JuV-zq-TSC" secondAttribute="bottom" constant="20" id="ufE-AO-Ncq"/>
+                <constraint firstAttribute="trailing" secondItem="mEP-pr-uep" secondAttribute="trailing" id="vr0-k4-UVi"/>
+                <constraint firstItem="hVd-bx-MWr" firstAttribute="height" secondItem="JuV-zq-TSC" secondAttribute="height" id="y9P-h6-QVZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="110" y="62"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="20" height="20"/>
+        <image name="language" width="30" height="22"/>
+    </resources>
+</document>

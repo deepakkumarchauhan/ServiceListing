@@ -1,0 +1,435 @@
+/*
+ Localizable.strings
+ CrafTechApplication
+ 
+ Created by Ratneshwar Singh on 11/30/16.
+ Copyright © 2016 Mobiloitte Inc. All rights reserved.
+ */
+
+
+"CFBundleDisplayName" = "خدماتي";
+
+//Login Screen
+"Email" = "Email";
+"Password" = "Password";
+"OR" = "OR";
+"Mobile Number" = "Mobile Number";
+"Remember me" = "Remember me";
+"Forgot password?" = "Forgot password?";
+"LOGIN" = "LOGIN";
+"New user" = "New user";
+"Sign up" = "Sign up";
+"New user?" = "New user?";
+"I agree to the" = "I agree to the";
+"Terms & Services" = "Terms & Services";
+"Terms and Services" = "Terms & services";
+"Change Location" = "Change Location";
+
+"TERMS & SERVICES" = "TERMS & SERVICES";
+
+"of the application" = "of the application";
+
+
+//Forgot Screen
+"FORGOT PASSWORD" = "FORGOT PASSWORD";
+"Content" = "Please enter your registered email address. We will send you the reset instructions over your registered email address or mobile number!";
+"Email/Mobile Number" = "Email/Mobile Number";
+"SUBMIT" = "SUBMIT";
+
+//OTP Screen
+"OTP" = "OTP";
+"OTPContent" = "We have sent you the activation code over the SMS";
+"Please enter the activation code" = "Please enter the activation code";
+"Resend OTP" = "Resend OTP";
+"Call facility is not available!!!" = "Call facility is not available!!!";
+"email facility is not available!!!" = "Email facility is not available!!!";
+
+"Please enable location services in settings to continue using the app!" = "Please enable location services in settings to continue using the app!";
+
+"Are you sure you want to delete all notifications?" = "Are you sure you want to delete all notifications?";
+
+// Complete Your Profile
+"COMPLETE YOUR PROFILE" = "COMPLETE YOUR PROFILE";
+"Current location" = "Current location";
+
+
+"Current location" = "Current location";
+
+"Auto detection location" = "Auto detection location";
+
+// SignUp Screen
+"SIGN UP" = "SIGN UP";
+"First name" = "First Name";
+"Last Name" = "Last Name";
+"Confirm Password" = "Confirm Password";
+"DOB" = "DOB";
+"Address" = "Address";
+
+
+// Profile Screen
+"Location" = "Location";
+"Email Address" = "Email Address";
+"My profile" = "MY PROFILE";
+"Edit profile" = "EDIT PROFILE";
+
+
+// Side Panel
+"HOME" = "HOME";
+"Home" = "Home";
+
+"Notification" = "Notifications";
+"NOTIFICATION" = "NOTIFICATIONS";
+
+
+"My ads" = "My ads";
+"POST A NEW ADD" = "POST A NEW AD";
+
+"Post a new ad" = "Post a new ad";
+
+"My service" = "My Services";
+"Terms & service" = "Terms & service";
+"Contact us" = "Contact Us";
+"CONTACT US" = "CONTACT US";
+
+"Privacy policy" = "Privacy Policy";
+"PRIVACY POLICY" = "PRIVACY POLICY";
+"Successfully reported" = "Reported successfully.";
+
+"Favorite" = "Favorites";
+"Logout" = "Logout";
+"SEND"   = "SEND";
+
+"Dummy Text" = "Lorem ipsum dolar sit amet, consect etur lorem dolor sit amet.";
+
+"Thanks! Our team has jumped into action and we'll get in touch with you shortly" = "Thanks! Our team has jumped into action and we'll get in touch with you shortly.";
+
+"User name" = "User name";
+
+"Are you sure you want to Logout ?" = "Are you sure you want to logout?";
+"Yes" = "Yes";
+"Cancel" = "CANCEL";
+"Apply" = "APPLY";
+
+"CancelSmall" = "Cancel";
+"TakeAPhoto" = "Take a Photo";
+"Choose from Gallery" = "Choose from Gallery";
+
+
+// Language Alert Screen
+"Choose your language" = "Choose your language";
+"English" = "ENGLISH";
+"Arabic" = "العربية";
+
+"Please select any sorting category" = "Please select any sorting category.";
+
+
+// Alert Strings
+"Validate email"    = "Please enter a valid email.";
+"Enter password"    = "Please enter password.";
+"Password length"   = "Password must be between 8 to 16 characters.";
+"Enter email"                = "Please enter email.";
+"Validate email and mobile"  = "Please enter valid email/mobile number.";
+"Enter email and mobile"     = "Please enter email/mobile number.";
+
+
+"Enter first name"           = "Please enter first name.";
+"Enter last name"            = "Please enter last name.";
+
+
+"Enter mobile"               = "Please enter mobile number.";
+"Validate mobile"            = "Please enter a valid mobile number.";
+"Agree to terms"             = "Please agree to terms and conditions.";
+"Enter Old password"         = "Please enter old password.";
+
+"Enter new password"         = "Please enter new password.";
+"Validate new password"      = "New password must be atleast 8 characters.";
+"Enter confirm password"     = "Please enter confirm password.";
+"Validate confirm password"  = "Confirm password must be between 8 to 16 characters.";
+"Match new and confirm password"  = "New password and confirm password does not match.";
+
+"Match password and confirm password" = "Password and confirm password does not match.";
+
+"Enter otp"                 = "Please enter OTP.";
+"Validate otp"              = "Please enter valid OTP.";
+"Select dob"                = "Please select date of birth.";
+"Enter address"             = "Please enable your location from your device.";
+"Enter location"             = "Please enable GPS.";
+
+
+"Select Location"             = "Select Location";
+
+
+
+"Please enter address"    =  "Please enter address.";
+
+"Otp Send"                  = "OTP has been sent to your mobile number.";
+"Please agree to term and conditions" = "Please agree to the terms & services.";
+"Password has been send to your mobile number" = "Password has been sent to your mobile number.";
+"Password has been send to your email id" = "Password has been sent to your email.";
+
+
+"Check camera"              = "Device has no camera.";
+
+"Please enter requirement"              = "Please enter requirement name.";
+"Please select category"              = "Please select category.";
+"Please select service type"              = "Please select service type.";
+"Please select transpotation"              = "Please select transportation.";
+"Please enter description"              = "Please enter description.";
+"Please enter price"              = "Please enter price.";
+
+"Please select subject"              = "Please select subject.";
+"Please enter problem"              = "Please enter problem.";
+
+"Please enter from price"              = "Please enter minimum price.";
+"Please enter to price"              = "Please enter maximum price.";
+"Please select distance"              = "Please select distance.";
+
+"Please enter service name"              = "Please enter service name.";
+"Please select transportation availability"              = "Please select transportation availability.";
+
+"Please select service type"              = "Please select service type.";
+
+"First name validations" = "Please enter valid first name.";
+"Last name validations" = "Please enter valid last name.";
+
+"Valid service name" = "Please enter at least two characters in the service name.";
+"Valid description name" = "Please enter at least two characters in the description.";
+
+"Valid service name type" = "Please enter a valid service name.";
+
+"Please enter your country code" = "Please enter your country code.";
+
+// Post a New Add Screen
+"Requirement Name" = "Requirement Name";
+"Select Category" = "Select Category";
+"Select Service Type" = "Select Service Type";
+"Select Transportation" = "Select Transportation";
+"Description" = "Description";
+"Price in $" = "Price($)";
+
+"Profile update successfully" = "Profile update successfully.";
+"Success" = "Success";
+
+"Success!" = "Success!";
+"Error!"   = "Error!";
+
+
+"I agree to the Terms & Services of the application" = "I agree to the Terms & Services of the application";
+
+
+// Services Screen
+
+"MY SERVICES" = "MY SERVICES";
+"SERVICES" = "SERVICES";
+"Services offered" = "Services offered";
+"Services required" = "Services required";
+"Sales" = "Sales";
+"Required" = "Required";
+"FILTER" = "FILTER ";
+"SORT" = "SORT ";
+"Inquiry 1" = "Inquiry 1";
+"Inquiry 2" = "Inquiry 2";
+"Inquiry 3" = "Inquiry 3";
+"Inquiry 4" = "Inquiry 4";
+"Inquiry 5" = "Inquiry 5";
+"Inquiry 6" = "Inquiry 6";
+"Inquiry 7" = "Inquiry 7";
+"Inquiry 8" = "Inquiry 8";
+"Inquiry 9" = "Inquiry 9";
+"12" = "12";
+"11" = "11";
+"13" = "13";
+"14" = "14";
+"15" = "15";
+"11 Km" = "11 Km";
+"Lorem Ipsum fghfh fghfghfg ghfhfgh" = "Lorem Ipsum fghfh fghfghfg ghfhfgh";
+
+
+
+// MY ADS Screen
+
+"MY ADS" = "MY ADS";
+"Ads 1" = "Ads 1";
+"Ads 2" = "Ads 2";
+"Ads 3" = "Ads 3";
+"Ads 4" = "Ads 4";
+"Ads 5" = "Ads 5";
+"Ads 6" = "Ads 6";
+"Ads 7" = "Ads 7";
+"Ads 8" = "Ads 8";
+"Ads 9" = "Ads 9";
+
+
+//Favorites Screen
+
+"FAVORITES" = "FAVORITES";
+
+//Service Detail Screen
+"SERVICE DETAILS" = "SERVICE DETAILS";
+"Service 1" = "Service 1";
+"Teaching" = "Teaching";
+"Painting" = "Painting";
+"Cooking" = "Cooking";
+"Construction" = "Construction";
+"Tailor" = "Tailor";
+"Mechanic" = "Mechanic";
+
+"computer" = "computer";
+"Other" = "Other";
+"shipping" = "shipping";
+
+
+"TEACHING" = "TEACHING";
+"PAINTING" = "PAINTING";
+"COOKING" = "COOKING";
+"CONSTRUCTION" = "CONSTRUCTION";
+"TAILOR" = "TAILOR";
+"MECHANIC" = "MECHANIC";
+
+"1200" = "1200";
+"YES" = "YES";
+"NO" = "NO";
+"No" = "No";
+"Required" = "Required";
+"Offered" = "Offered";
+"Sales" = "Sales";
+"Inquiry" = "Inquiry";
+"Work In Progress!" =  "Work In Progress!";
+"Service Name" = "Service Name";
+"Category" = "Category";
+
+"CATEGORIES" = "CATEGORIES";
+
+"Price" = "Price";
+"Transportation\nAvailability" = "Transportation\nAvailability";
+"Service Type" = "Service Type";
+"Share your comment..." = "Share your comment...";
+
+"fdgfhfghfghfghfghjdfghufghufghufguhfguh fguhfguhgufhufgh fguh ufgfugh fguufghufd hudf uh dfugh dfuihg dfiuhgdfhiug dfiuhgdfhug dfuhgdufihg dfiuhgudifhg dfuhg dfuhgudfhgdfuhg udfgh dfhjdsujfdshfudshfuhdsufhdsuhfudishfiudhsfiuhdsuifhdsuhf"  =  "fdgfhfghfghfghfghjdfghufghufghufguhfguh fguhfguhgufhufgh fguh ufgfugh fguufghufd hudf uh dfugh dfuihg dfiuhgdfhiug dfiuhgdfhug dfuhgdufihg dfiuhgudifhg dfuhg dfuhgudfhgdfuhg udfgh dfhjdsujfdshfudshfuhdsufhdsuhfudishfiudhsfiuhdsuifhdsuhf";
+
+"Alert" = "Alert";
+"Alert!" = "Alert!";
+
+
+"CHOOSE COUNTRY" = "CHOOSE COUNTRY";
+
+"COUNTRY" = "COUNTRY";
+
+"Country" = "Country";
+
+"Auto-detection" = "Auto-detection";
+
+"Select Country" = "Select Country";
+
+"Repost Successfully." = "Reposted successfully.";
+"Are you sure! You want to delete this post." = "Are you sure you want to delete this post?";
+
+"Are you sure! You want to repost this advertisement." = "Are you sure you want to repost this advertisement?";
+
+
+"Comments" = "Comments";
+"Call" = "Call";
+"SMS" = "SMS";
+"Email" = "Email";
+"Add to favorite" = "Add to favorite";
+"Remove from Favorites" = "Remove from favorite";
+"Report" = "Report";
+"Share" = "Share";
+"Posted by" = "Posted by";
+"Description:" = "Description:";
+"Likes" = "Likes";
+"Views" = "Views";
+"Dis" = "Dis";
+"Km" = "Km";
+"mi" = "mi";
+"Search" = "Search";
+
+"Add advertisement" = "Add your advertisement";
+"Submit" = "Submit";
+"OK" = "OK";
+
+"Post added successfully" = "Post added successfully.";
+
+"Your age should be atleast 14 years" = "Your age should be atleast 14 years.";
+
+"Call facility is not available." = "Call facility is not available.";
+"email facility is not available." = "Email facility is not available.";
+
+"Delete" = "Delete";
+
+
+// Report Screen
+"Report your problem" = "Write your problem";
+"Subject" = "Subject";
+"ReportCap" = "REPORT";
+
+
+// Sort Screen
+"SORT" = "SORT";
+
+"Latest ads" = "Latest ads";
+"Most commented today" = "Most commented today";
+"Most commented last week" = "Most commented last week";
+"Last month" = "Last month";
+"Last week" = "Last week";
+"Most liked" = "Most liked";
+
+// Filter Screen
+"From" = "From";
+"To" = "To";
+"Transportation" = "Transportation";
+"Select Transportation Availability" = "Select Transportation Availability";
+"Distance" = "Distance";
+"10 km" = "10 km";
+"Filter" = "Filter";
+"Distance (Miles)" = "Distance (Miles)";
+"Distance (Km)" = "Distance (Km)";
+
+
+
+// Edit Service
+"Service name" = "Service name";
+"Transportation availability" = "Transportation Availability";
+"Service type" = "Service Type";
+
+"Edit service" = "EDIT SERVICE";
+"Save" = "SAVE";
+
+
+// Service Screen
+"Service" = "SERVICES";
+"Service detail" = "SERVICE DETAILS";
+"Services offered" = "Services offered";
+"Services Required" = "Services Required";
+"Sales" = "Sales";
+"Required" = "Required";
+"Inquiry" = "Inquiry";
+
+"Done" = "Done";
+"+91" = "+91";
+
+"(Not available)" = "(Not available)";
+"(unknown)" = "(unknown)";
+
+"Unknown" = "Unknown";
+
+"Today" = "Today";
+
+
+"Available" = "Available";
+"Not Available" = "Not Available";
+"GRID" = "GRID ";
+"LIST" = "LIST ";
+
+"Currently no data are available. Please drag down to refresh" = "Currently no data available. Please pull down to refresh.";
+
+"Email id is not available" = "Email id is not available.";
+
+"Add new Post" = "Add new Post";
+
+"I'M IN HOME" = "I'M IN HOME";
+
+"NEW USER" = "NEW USER";
+"EXISTING USER" = "EXISTING USER";
+"Not an existing user." = "Not an existing user.";
+"Next" = "Next";
